@@ -17,7 +17,7 @@ body {
     padding: 0;
 }
 
-.container button{
+.container .addContactBtn{
     
     background-color: #007bff;
     cursor: pointer;
@@ -32,7 +32,7 @@ body {
     right: 20px;
 }
  
-.container button:hover{
+.container .addContactBtn:hover{
     animation: slideIn 2s ease forwards;
     background-color: #0056b3;
 }
@@ -42,6 +42,9 @@ body {
     background-color: #f9f9f9;
     border-radius: 5px;
     transition: background-color 0.3s ease;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .contact:hover {
